@@ -8,21 +8,51 @@ body {
 
 .container {
 	position: fixed;
-    top: 25%;
+    top: 15%;
     left: 0px;
     width: 100%;
-    height: 60%;
 	background: rgba(255,255,255,.6);
+  overflow: auto;
 }
 
-.logo {
-  max-height: auto;
-  max-width: 30%;
-  margin: 0 35% 0 35%;
+#img_cont {
+  text-align: center;
+}
+
+.logoone {
+  padding-top: 15px;
+  width: 40%;
+  margin: 0 30% 0 30%;
+  clear: all;
+}
+
+.logotwo {
+  display: inline-block;
+  margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+
+.logothree {
+  display: inline-block;
+  margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+
+.logofour {
+  display: inline-block;
+  margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
 }
 
 .quote {
-  margin-top: 0;
+  clear: both;
+  margin-top: 20px;
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-style: italic;
   font-size: 1.2em;
@@ -37,7 +67,8 @@ body {
   padding-right: 5%;
 }
 
-/*FOR FADE IN ANIMATIONS*/
+/******************FADE IN ANIMATIONS******************/
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -48,7 +79,7 @@ body {
   -moz-animation:fadeIn ease-in 1;
   animation:fadeIn ease-in 1;
 
-  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -webkit-animation-fill-mode:forwards;   this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)
   -moz-animation-fill-mode:forwards;
   animation-fill-mode:forwards;
 
@@ -64,13 +95,15 @@ animation-delay: 1s;
 }
 
 .fade-in.two {
--webkit-animation-delay: 1.6s;
--moz-animation-delay:1.6s;
-animation-delay: 1.6s;
+-webkit-animation-delay: 2s;
+-moz-animation-delay:2s;
+animation-delay: 2s;
 }
 
 .fade-in.three {
--webkit-animation-delay: 2s;
--moz-animation-delay: 2s;
-animation-delay: 2s;
+-webkit-animation-delay: 3s;
+-moz-animation-delay: 3s;
+animation-delay: 3s;
 }
+
+/****************** /END/ FADE IN ANIMATIONS /END/******************/
