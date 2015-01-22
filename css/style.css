@@ -95,15 +95,15 @@ animation-delay: 1s;
 }
 
 .fade-in.two {
--webkit-animation-delay: 2s;
--moz-animation-delay:2s;
-animation-delay: 2s;
+-webkit-animation-delay: 3s;
+-moz-animation-delay:3s;
+animation-delay: 3s;
 }
 
 .fade-in.three {
--webkit-animation-delay: 3s;
--moz-animation-delay: 3s;
-animation-delay: 3s;
+-webkit-animation-delay: 2s;
+-moz-animation-delay: 2s;
+animation-delay: 2s;
 }
 
 /****************** /END/ FADE IN ANIMATIONS /END/******************/
