@@ -5,12 +5,14 @@
 	  width: 80%;
 	  margin: 0 10% 0 10%;
 	  clear: all;
+	  text-align: center;
 	}
 
 	#logosecondline {
 	  display: inline-block;
-	  margin: 15px auto 15px auto;
+	  margin: 2%;
 	  height: 30px;
+	  text-align: center;
 	}
 
 	.quote {
